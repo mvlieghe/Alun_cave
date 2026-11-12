@@ -1,0 +1,69 @@
+Taxons SingleM : 544 -> après décontamination : 544 
+Part de couverture retirée par échantillon (%) :
+  1B2  1BY1  1UY2   2B1   2B2  2BR1   2R1  2UY1  2UY2 3UBr1 3UBr2 
+    0     0     0     0     0     0     0     0     0     0     0 
+[38;5;246m# A tibble: 2 × 7[39m
+      R2     F p_exact_restreint n_etiquetages distance    p_libre p_betadisper
+   [3m[38;5;246m<dbl>[39m[23m [3m[38;5;246m<dbl>[39m[23m             [3m[38;5;246m<dbl>[39m[23m         [3m[38;5;246m<int>[39m[23m [3m[38;5;246m<chr>[39m[23m         [3m[38;5;246m<dbl>[39m[23m        [3m[38;5;246m<dbl>[39m[23m
+[38;5;250m1[39m 0.079[4m5[24m  1.09            0.267             45 Aitchison     0.293       0.079[4m4[24m
+[38;5;250m2[39m 0.080[4m1[24m  1.44            0.022[4m2[24m            45 Bray-Curtis   0.177       0.01  
+MAGs ferro-oxydants : 0 ; oxydants du Mn : 0 
+[38;5;246m# A tibble: 6 × 9[39m
+  estimate p_unilateral p_bilateral n_etiquetages test                 principal
+     [3m[38;5;246m<dbl>[39m[23m        [3m[38;5;246m<dbl>[39m[23m       [3m[38;5;246m<dbl>[39m[23m         [3m[38;5;246m<int>[39m[23m [3m[38;5;246m<chr>[39m[23m                [3m[38;5;246m<lgl>[39m[23m    
+[38;5;250m1[39m    0.583       0.2         0.333             45 SingleM, log-ratio … TRUE     
+[38;5;250m2[39m    0.583       0.2         0.333             45 SingleM, log-ratio … FALSE    
+[38;5;250m3[39m    0.583       0.2         0.333             45 SingleM, log-ratio … FALSE    
+[38;5;250m4[39m    0.614       0.066[4m7[24m      0.066[4m7[24m            45 Cyc2 (reads), cyc2_… FALSE    
+[38;5;250m5[39m    0.614       0.066[4m7[24m      0.066[4m7[24m            45 Cyc2 (reads), cyc2_… FALSE    
+[38;5;250m6[39m    0.329       0.066[4m7[24m      0.111             45 Cyc2 (reads), cyc2_… FALSE    
+[38;5;246m# ℹ 3 more variables: p_fisher_presence <dbl>, rho_qubit <dbl>, n_taxons <int>[39m
+[38;5;246m# A tibble: 6 × 10[39m
+   estimate p_unilateral p_bilateral n_etiquetages variable    zone  n_col n_unc
+      [3m[38;5;246m<dbl>[39m[23m        [3m[38;5;246m<dbl>[39m[23m       [3m[38;5;246m<dbl>[39m[23m         [3m[38;5;246m<int>[39m[23m [3m[38;5;246m<chr>[39m[23m       [3m[38;5;246m<chr>[39m[23m [3m[38;5;246m<int>[39m[23m [3m[38;5;246m<int>[39m[23m
+[38;5;250m1[39m -[31m1[39m[31m.[39m[31m26[39m[38;5;246me[39m[31m-15[39m       1           1                  3 SingleM, l… 1         2     1
+[38;5;250m2[39m  8.74[38;5;246me[39m[31m- 1[39m       0.2         0.333             15 SingleM, l… 2         4     2
+[38;5;250m3[39m -[31m4[39m[31m.[39m[31m20[39m[38;5;246me[39m[31m-16[39m       1           1                  3 Cyc2 (read… 1         2     1
+[38;5;250m4[39m  9.21[38;5;246me[39m[31m- 1[39m       0.066[4m7[24m      0.066[4m7[24m            15 Cyc2 (read… 2         4     2
+[38;5;250m5[39m -[31m4[39m[31m.[39m[31m20[39m[38;5;246me[39m[31m-16[39m       1           1                  3 Cyc2 (read… 1         2     1
+[38;5;250m6[39m  9.21[38;5;246me[39m[31m- 1[39m       0.066[4m7[24m      0.066[4m7[24m            15 Cyc2 (read… 2         4     2
+[38;5;246m# ℹ 2 more variables: p_min_possible <dbl>, separation_complete <lgl>[39m
+[38;5;246m# A tibble: 11 × 6[39m
+   test                              n    rho p_restreint n_permutations p_libre
+   [3m[38;5;246m<chr>[39m[23m                         [3m[38;5;246m<int>[39m[23m  [3m[38;5;246m<dbl>[39m[23m       [3m[38;5;246m<dbl>[39m[23m          [3m[38;5;246m<int>[39m[23m   [3m[38;5;246m<dbl>[39m[23m
+[38;5;250m 1[39m Fe2O3 ~ SingleM, log-ratio f…     9  0.822       0.05             480 0.003[4m2[24m[4m9[24m
+[38;5;250m 2[39m MnO ~ tache noire (0/1)           9  0.822       0.05             480 0.003[4m3[24m[4m0[24m
+[38;5;250m 3[39m MnO ~ SingleM, log-ratio Mn …     9 -[31m0[39m[31m.[39m[31m287[39m       0.8              480 0.773  
+[38;5;250m 4[39m Fe2O3 ~ Cyc2 (reads), Gallio…     9  0.803       0.183            480 0.004[4m5[24m[4m6[24m
+[38;5;250m 5[39m Fe2O3 ~ Cyc2 (reads), cluste…     9  0.75        0.521            480 0.012[4m7[24m 
+[38;5;250m 6[39m MnO ~ EXN22_13545 (reads)         9 -[31m0[39m[31m.[39m[31m567[39m       0.917            480 0.946  
+[38;5;250m 7[39m MnO ~ M5G11_06760 (reads)         9 -[31m0[39m[31m.[39m[31m1[39m         0.673            480 0.612  
+[38;5;250m 8[39m MnO ~ McoA (reads)                9  0.176       0.673            480 0.326  
+[38;5;250m 9[39m MnO ~ MofA (reads)                9  0.525       0.05             480 0.073[4m4[24m 
+[38;5;250m10[39m MnO ~ MoxA (reads)                9 -[31m0[39m[31m.[39m[31m333[39m       0.738            480 0.821  
+[38;5;250m11[39m MnO ~ SI859A1_02124 (reads)       9  0.335       0.146            480 0.189  
+[38;5;246m# A tibble: 8 × 7[39m
+   estimate p_unilateral p_bilateral n_etiquetages test                 n_taxons
+      [3m[38;5;246m<dbl>[39m[23m        [3m[38;5;246m<dbl>[39m[23m       [3m[38;5;246m<dbl>[39m[23m         [3m[38;5;246m<int>[39m[23m [3m[38;5;246m<chr>[39m[23m                   [3m[38;5;246m<int>[39m[23m
+[38;5;250m1[39m -[31m1[39m[31m.[39m[31m29[39m[38;5;246me[39m[31m-15[39m        1          1                 60 SingleM, log-ratio …        0
+[38;5;250m2[39m -[31m3[39m[31m.[39m[31m26[39m[38;5;246me[39m[31m- 1[39m        1          1                 60 SingleM, log-ratio …        1
+[38;5;250m3[39m -[31m2[39m[31m.[39m[31m63[39m[38;5;246me[39m[31m- 1[39m        1          0.016[4m7[24m            60 Gène (reads), EXN22…       [31mNA[39m
+[38;5;250m4[39m  1.16[38;5;246me[39m[31m- 1[39m        0.267      0.533             60 Gène (reads), M5G11…       [31mNA[39m
+[38;5;250m5[39m  6.93[38;5;246me[39m[31m- 2[39m        0.383      0.833             60 Gène (reads), McoA         [31mNA[39m
+[38;5;250m6[39m  2.33[38;5;246me[39m[31m- 1[39m        0.2        0.4               60 Gène (reads), MofA         [31mNA[39m
+[38;5;250m7[39m -[31m4[39m[31m.[39m[31m0[39m[31m3[39m[38;5;246me[39m[31m- 2[39m        0.867      0.3               60 Gène (reads), MoxA         [31mNA[39m
+[38;5;250m8[39m  1.34[38;5;246me[39m[31m- 1[39m        0.1        0.3               60 Gène (reads), SI859…       [31mNA[39m
+[38;5;246m# ℹ 1 more variable: p_fisher_presence <dbl>[39m
+|------------(25%)----------(50%)----------(75%)----------|
+[38;5;246m# A tibble: 7 × 8[39m
+  scenario               n  H1_R2   H1_p H2_effet   H2_p H2_fisher n_etiquetages
+  [3m[38;5;246m<chr>[39m[23m              [3m[38;5;246m<int>[39m[23m  [3m[38;5;246m<dbl>[39m[23m  [3m[38;5;246m<dbl>[39m[23m    [3m[38;5;246m<dbl>[39m[23m  [3m[38;5;246m<dbl>[39m[23m     [3m[38;5;246m<dbl>[39m[23m         [3m[38;5;246m<int>[39m[23m
+[38;5;250m1[39m Principal : Singl…    11 0.079[4m5[24m 0.267     0.583 0.2       0.121             45
+[38;5;250m2[39m Sans décontaminat…    11 0.079[4m5[24m 0.267     0.583 0.2       0.121             45
+[38;5;250m3[39m decontam 0,5          11 0.079[4m5[24m 0.267     0.583 0.2       0.121             45
+[38;5;250m4[39m Sans 1BY1             10 0.089[4m4[24m 0.267     0.636 0.2       0.083[4m3[24m            30
+[38;5;250m5[39m 1B2 et 1BY1 moyen…    10 0.087[4m5[24m 0.3       0.636 0.2       0.083[4m3[24m            30
+[38;5;250m6[39m sylph (genres ; <…    11 0.119  0.133     0.437 0.4       0.273             45
+[38;5;250m7[39m Kraken/Bracken (f…    11 0.114  0.066[4m7[24m    1.88  0.044[4m4[24m    1                 45
+
+Terminé. Résultats dans /data/Martin/stats 

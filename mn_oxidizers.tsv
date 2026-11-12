@@ -1,0 +1,11 @@
+niveau	rang	nom	mode_de_vie	reference
+1	genre	Manganitrophus	chimiolithoautotrophe oxydant le Mn (Nitrospirota)	Yu & Leadbetter 2020 Nature
+1	genre	Leptothrix	oxyde Mn et Fe (L. discophora, MofA)	Tebo et al. 2004 Annu Rev Earth Planet Sci
+1	genre	Pedomicrobium	oxyde Mn et Fe (MoxA)	Tebo et al. 2004 Annu Rev Earth Planet Sci
+3	genre	Hyphomicrobium	oxydation du Mn chez certaines souches	Tebo et al. 2004 Annu Rev Earth Planet Sci
+3	genre	Aurantimonas	souche SI85-9A1 (MopA)	Tebo et al. 2004 Annu Rev Earth Planet Sci
+3	genre	Erythrobacter	souche SD-21 (MopA)	Tebo et al. 2004 Annu Rev Earth Planet Sci
+3	genre	Pseudomonas	souches GB-1 / MnB1 (McoA, MnxG, MopA)	Geszvain et al. 2012 Biochem Soc Trans
+3	genre	Bacillus	spores, souche SG-1 (MnxG)	Tebo et al. 2004 Annu Rev Earth Planet Sci
+3	genre	Roseobacter	souche AzwK-3b (superoxyde)	Tebo et al. 2004 Annu Rev Earth Planet Sci
+3	genre	Ramlibacter	souche chimiolithotrophe (co-culture avec Manganitrophus)	Yu & Leadbetter 2020 Nature

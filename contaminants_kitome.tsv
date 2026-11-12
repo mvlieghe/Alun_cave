@@ -1,0 +1,85 @@
+genre	source	remarque
+Afipia	Salter et al. 2014 BMC Biol
+Aquabacterium	Salter et al. 2014 BMC Biol
+Asticcacaulis	Salter et al. 2014 BMC Biol
+Aurantimonas	Salter et al. 2014 BMC Biol	aussi dans mn_oxidizers.tsv (garde-fou)
+Beijerinckia	Salter et al. 2014 BMC Biol
+Bosea	Salter et al. 2014 BMC Biol
+Bradyrhizobium	Salter et al. 2014 BMC Biol	aussi abondant dans les sols : ne retirer que si decontam est significatif
+Brevundimonas	Salter et al. 2014 BMC Biol
+Caulobacter	Salter et al. 2014 BMC Biol
+Craurococcus	Salter et al. 2014 BMC Biol
+Devosia	Salter et al. 2014 BMC Biol
+Hoeflea	Salter et al. 2014 BMC Biol
+Mesorhizobium	Salter et al. 2014 BMC Biol
+Methylobacterium	Salter et al. 2014 BMC Biol
+Novosphingobium	Salter et al. 2014 BMC Biol
+Ochrobactrum	Salter et al. 2014 BMC Biol
+Paracoccus	Salter et al. 2014 BMC Biol
+Pedomicrobium	Salter et al. 2014 BMC Biol	aussi dans iron_/mn_oxidizers.tsv (garde-fou)
+Phyllobacterium	Salter et al. 2014 BMC Biol
+Rhizobium	Salter et al. 2014 BMC Biol
+Roseomonas	Salter et al. 2014 BMC Biol
+Sphingobium	Salter et al. 2014 BMC Biol
+Sphingomonas	Salter et al. 2014 BMC Biol
+Sphingopyxis	Salter et al. 2014 BMC Biol
+Acidovorax	Salter et al. 2014 BMC Biol	aussi dans iron_oxidizers.tsv niveau 3 (garde-fou)
+Azoarcus	Salter et al. 2014 BMC Biol
+Herbaspirillum	Salter et al. 2014 BMC Biol
+Leptothrix	Salter et al. 2014 BMC Biol	aussi dans iron_/mn_oxidizers.tsv (garde-fou)
+Limnobacter	Salter et al. 2014 BMC Biol
+Massilia	Salter et al. 2014 BMC Biol
+Methylophilus	Salter et al. 2014 BMC Biol
+Methyloversatilis	Salter et al. 2014 BMC Biol
+Oxalobacter	Salter et al. 2014 BMC Biol
+Pelomonas	Salter et al. 2014 BMC Biol
+Polaromonas	Salter et al. 2014 BMC Biol
+Ralstonia	Salter et al. 2014 BMC Biol
+Schlegelella	Salter et al. 2014 BMC Biol
+Sulfuritalea	Salter et al. 2014 BMC Biol
+Undibacterium	Salter et al. 2014 BMC Biol
+Variovorax	Salter et al. 2014 BMC Biol
+Acinetobacter	Salter et al. 2014 BMC Biol
+Enhydrobacter	Salter et al. 2014 BMC Biol
+Enterobacter	Salter et al. 2014 BMC Biol
+Escherichia	Salter et al. 2014 BMC Biol
+Nevskia	Salter et al. 2014 BMC Biol
+Pseudomonas	Salter et al. 2014 BMC Biol	aussi abondant dans les sols : ne retirer que si decontam est significatif
+Pseudoxanthomonas	Salter et al. 2014 BMC Biol
+Psychrobacter	Salter et al. 2014 BMC Biol
+Stenotrophomonas	Salter et al. 2014 BMC Biol
+Xanthomonas	Salter et al. 2014 BMC Biol
+Aeromicrobium	Salter et al. 2014 BMC Biol
+Arthrobacter	Salter et al. 2014 BMC Biol
+Beutenbergia	Salter et al. 2014 BMC Biol
+Brevibacterium	Salter et al. 2014 BMC Biol
+Corynebacterium	Salter et al. 2014 BMC Biol
+Curtobacterium	Salter et al. 2014 BMC Biol
+Dietzia	Salter et al. 2014 BMC Biol
+Geodermatophilus	Salter et al. 2014 BMC Biol
+Janibacter	Salter et al. 2014 BMC Biol
+Kocuria	Salter et al. 2014 BMC Biol
+Microbacterium	Salter et al. 2014 BMC Biol
+Micrococcus	Salter et al. 2014 BMC Biol
+Microlunatus	Salter et al. 2014 BMC Biol
+Patulibacter	Salter et al. 2014 BMC Biol
+Propionibacterium	Salter et al. 2014 BMC Biol	(Cutibacterium en GTDB)
+Cutibacterium	Salter et al. 2014 BMC Biol	nom actuel de Propionibacterium acnes
+Rhodococcus	Salter et al. 2014 BMC Biol
+Tsukamurella	Salter et al. 2014 BMC Biol
+Abiotrophia	Salter et al. 2014 BMC Biol
+Bacillus	Salter et al. 2014 BMC Biol	aussi dans mn_oxidizers.tsv (garde-fou)
+Brevibacillus	Salter et al. 2014 BMC Biol
+Brochothrix	Salter et al. 2014 BMC Biol
+Facklamia	Salter et al. 2014 BMC Biol
+Paenibacillus	Salter et al. 2014 BMC Biol
+Streptococcus	Salter et al. 2014 BMC Biol
+Chryseobacterium	Salter et al. 2014 BMC Biol
+Dyadobacter	Salter et al. 2014 BMC Biol
+Flavobacterium	Salter et al. 2014 BMC Biol
+Hydrotalea	Salter et al. 2014 BMC Biol
+Niastella	Salter et al. 2014 BMC Biol
+Olivibacter	Salter et al. 2014 BMC Biol
+Pedobacter	Salter et al. 2014 BMC Biol
+Wautersiella	Salter et al. 2014 BMC Biol
+Deinococcus	Salter et al. 2014 BMC Biol

@@ -1,0 +1,20 @@
+niveau	rang	nom	mode_de_vie	reference
+1	famille	Gallionellaceae	neutrophile microaérophile (Gallionella, Sideroxydans, Sideroxyarcus, Ferriphaselus, Ferrigenium, Ferritrophicum)	Emerson et al. 2010 Annu Rev Microbiol
+1	famille	Mariprofundaceae	neutrophile microaérophile (Zetaproteobacteria)	Emerson et al. 2010 Annu Rev Microbiol
+1	genre	Ferrovum	acidophile	Hedrich et al. 2011 Microbiology
+1	genre	Leptospirillum	acidophile	Hedrich et al. 2011 Microbiology
+2	genre	Leptothrix	neutrophile, gaines ferrugineuses (oxyde aussi Mn)	Emerson et al. 2010 Annu Rev Microbiol
+2	genre	Sphaerotilus	neutrophile, gaines ferrugineuses	Emerson et al. 2010 Annu Rev Microbiol
+2	genre	Acidithiobacillus	acidophile (A. ferrooxidans…)	Hedrich et al. 2011 Microbiology
+2	genre	Ferrimicrobium	acidophile	Hedrich et al. 2011 Microbiology
+2	genre	Acidimicrobium	acidophile	Hedrich et al. 2011 Microbiology
+2	genre	Ferroplasma	acidophile (archée)	Hedrich et al. 2011 Microbiology
+2	genre	Sulfobacillus	acidophile	Hedrich et al. 2011 Microbiology
+2	genre	Pedomicrobium	neutrophile (Fe/Mn)	à compléter
+3	genre	Acidovorax	nitrate-dépendant (souche BoFeN1)	Melton et al. 2014 Nat Rev Microbiol
+3	genre	Thiobacillus	nitrate-dépendant (T. denitrificans)	Melton et al. 2014 Nat Rev Microbiol
+3	genre	Dechloromonas	nitrate-dépendant	Melton et al. 2014 Nat Rev Microbiol
+3	genre	Rhodopseudomonas	photoferrotrophe (souche TIE-1)	Melton et al. 2014 Nat Rev Microbiol
+3	genre	Rhodobacter	photoferrotrophe (souche SW2)	Melton et al. 2014 Nat Rev Microbiol
+3	genre	Chlorobium	photoferrotrophe (C. ferrooxidans)	Melton et al. 2014 Nat Rev Microbiol
+
