@@ -1,19 +1,19 @@
 #!/bin/bash
 # ============================================================
-# singlem_profile.sh — PROFIL TAXONOMIQUE PRINCIPAL (SingleM)
+# singlem_profile.sh — MAIN TAXONOMIC PROFILER (SingleM)
 # ============================================================
-# Pourquoi SingleM (Woodcroft et al. 2025, Nat Biotechnol) :
-#  sylph et Kraken2 ne décrivent que < 8 % des reads de nos échantillons,
-#  car la communauté de la grotte est très éloignée des génomes de
-#  référence. SingleM profile à partir de 59 gènes marqueurs universels
-#  placés dans la taxonomie GTDB : un organisme sans génome proche est
-#  compté quand même, et classé au rang le plus précis possible
-#  (ex. une Gallionellaceae inconnue -> « f__Gallionellaceae »).
+# Why SingleM (Woodcroft et al. 2025, Nat Biotechnol) :
+#  sylph et Kraken2 describe only < 8 % of the reads in the samples,
+#  because de cave's community is very different than the reference
+#  genomes. SingleM profiles based on 59 universal marker genes
+#  placed in the GTDB taxonomy : an organism with no closely related genome is
+#  still considered, and classified at the most precise possible rank
+#  (ex. an unknown Gallionellaceae -> « f__Gallionellaceae »).
 #
-# Entrée  : clean_reads/<s>/<s>_R{1,2}.clean.fastq.gz
-# Sorties : singlem/profiles/<s>.profile.tsv     (profil par échantillon)
-#           singlem/microbial_fraction.tsv       (part des reads microbiens)
-#           singlem/table-*.tsv                  (tables échantillon x taxon par rang)
+# Input  : clean_reads/<s>/<s>_R{1,2}.clean.fastq.gz
+# Output : singlem/profiles/<s>.profile.tsv     (profile per sample)
+#           singlem/microbial_fraction.tsv       (part of the microbial reads)
+#           singlem/table-*.tsv                  (tables sample x taxon by rank)
 #
 # Lancement :
 #   TEST=1 bash /data/Martin/singlem_profile.sh
